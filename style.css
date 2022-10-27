@@ -465,7 +465,9 @@ background: crimson;
     color: #333;
 
 }
-
+.contact .right form .fields{
+    display: flex;
+}
 
 
 
