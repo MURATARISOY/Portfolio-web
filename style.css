@@ -481,11 +481,11 @@ background: crimson;
 
 }
 .contact .right form .name{
-    margin-right: 10px;
+    margin-right: 0px;
 
 }
 .contact .right form .email{
-    margin-left: 10px;
+    margin-left: 0px;
 
 
 }
@@ -531,8 +531,19 @@ background: crimson;
     background: none;
 
 }
-
-
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+}
+footer span a{
+    color: crimson;
+    text-decoration: underline;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -647,13 +658,13 @@ background: crimson;
         margin-bottom: 20px;
 
     }
-    .skills .skills-content .column,
+    /* .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100px;
         margin-bottom: 35px;
 
 
-    }
+    } */
 
     @media(max-width: 690px){
         .max-width{
